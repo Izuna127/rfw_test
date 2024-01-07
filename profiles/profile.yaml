@@ -1,0 +1,7 @@
+string_model:   testModel
+integer_number: 123456
+host_dict:
+  ip_address:   127.0.0.1
+  username:     testuser
+  password:     testpassword
+target_bool:    True
