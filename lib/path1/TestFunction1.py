@@ -1,6 +1,11 @@
 from robot.api import logger
 
 def print_message(message, is_enabled: bool):
+    """概要
+
+    なんたらかんたら
+    """
+
     print(f'* message = {message}')
     print(f'* is_enabled = {is_enabled}')
     
@@ -13,6 +18,11 @@ def print_message(message, is_enabled: bool):
 
 
 def has_return_value_func(i : int, is_enabled: bool):
+    """概要
+
+    なんたらかんたら
+    """
+
     print(f'* i = {i}')
     print(f'* is_enabled = {is_enabled}')
 
