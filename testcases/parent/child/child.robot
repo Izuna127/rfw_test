@@ -8,5 +8,5 @@ Resource    grandchild/grandchild.robot
     Print Message    ${arg1}    ${True}
     # 引数1を2倍した値を取得
     ${returnValue}=    Has Return Value Func    22    ${True}
-    てすとけ～すgrandchild    piyo-${returnValue}
+    Run Keyword If    ${returnValue} == 40    てすとけ～すgrandchild    piyo-${returnValue}
     Print Message    child-dayo    ${True}
