@@ -35,6 +35,17 @@ def has_return_value_func(i : int, is_enabled: bool):
     return j
 
 
+def error_occurred(generate :bool, is_enabled: bool):
+    print(f'* generate = {generate}')
+    print(f'* is_enabled = {is_enabled}')
+
+    if not is_enabled:
+        return
+    
+    if generate:
+        raise AssertionError("えらーだよ")
+
+
 def log_utils(message):
     logger.console(message)
     print(message)
