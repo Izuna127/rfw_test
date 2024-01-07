@@ -14,9 +14,11 @@ Test Teardown    後処理    teardown1    teardown2
 事前準備
     [Arguments]    ${arg1}    ${arg2}
     Print Message    ${arg1}    ${True}
+    Error Occurred    ${True}    ${True}
     Print Message    ${arg2}    ${True}
 
 後処理
     [Arguments]    ${arg1}    ${arg2}
     Print Message    ${arg1}    ${True}
+    Error Occurred    ${True}    ${True}
     Print Message    ${arg2}    ${True}
