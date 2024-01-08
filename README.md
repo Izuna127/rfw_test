@@ -62,3 +62,23 @@ Output:  F:\Python\RFW\results\output.xml
 Log:     F:\Python\RFW\results\log.html
 Report:  F:\Python\RFW\results\report.html
 ```
+
+```
+PS F:\Python\RFW> robot -P lib -d results --variablefile .\testcases\datasheet\from_file.yaml  .\testcases\enabled_flag_test.robot
+==============================================================================
+Enabled Flag Test
+==============================================================================
+データ駆動1                                                           Test Function 1 -> from_file_value_1
+Test Function 1 -> fugapiyo
+えらーだよ
+Test Function 1 -> from_file_value_2
+Test Function 1 -> Data_Value_3
+データ駆動1                                                           | PASS |
+------------------------------------------------------------------------------
+Enabled Flag Test                                                     | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  F:\Python\RFW\results\output.xml
+Log:     F:\Python\RFW\results\log.html
+Report:  F:\Python\RFW\results\report.html
+```
