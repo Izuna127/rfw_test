@@ -43,7 +43,20 @@ def error_occurred(generate :bool, is_enabled: bool):
         return
     
     if generate:
+        log_utils("えらーだよ")
         raise AssertionError("えらーだよ")
+
+
+def is_supported(model, config):
+    models = ['A', 'B', 'C', 'D']
+
+    if not model in models:
+        return False
+    
+    if model == 'C':
+        return config == 'A1'
+        
+    return True
 
 
 def log_utils(message):
