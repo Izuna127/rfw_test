@@ -5,3 +5,5 @@ host_dict:
   username:     testuser
   password:     testpassword
 target_bool:    True
+model:          Z
+config:         A1
